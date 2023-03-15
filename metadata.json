@@ -1,0 +1,75 @@
+{
+  "title": "US-Film-Industry",
+  "description": "This repository contains data related to the US film industry, including box office grosses, movie ratings, and director information.",
+  "creator": {
+    "name": "SummerG20",
+    "email": "greesh@uw.edu",
+    "affiliation": "University of Washington, Seattle"
+  },
+  "keywords": [
+    "film",
+    "movie",
+    "box office",
+    "rating",
+    "director"
+  ],
+  "license": "MIT",
+  "created": "2020-05-01",
+  "modified": "2022-02-20",
+  "version": "1.0",
+  "language": "English",
+  "data": [
+    {
+      "name": "box_office.csv",
+      "description": "Box office grosses for US movies from 2000-2020",
+      "format": "CSV",
+      "url": "https://github.com/SummerG20/US-Film-Industry/blob/main/data/box_office.csv",
+      "size": "10 MB",
+      "variables": [
+        {
+          "name": "title",
+          "description": "Title of the movie",
+          "type": "string"
+        },
+        {
+          "name": "release_year",
+          "description": "Year the movie was released",
+          "type": "integer"
+        },
+        {
+          "name": "gross_domestic",
+          "description": "Domestic gross box office revenue in US dollars",
+          "type": "float"
+        },
+        {
+          "name": "gross_foreign",
+          "description": "Foreign gross box office revenue in US dollars",
+          "type": "float"
+        }
+      ],
+    },
+    {
+      "name": "movie_ratings.csv",
+      "description": "Ratings data for US movies from 2000-2020",
+      "format": "CSV",
+      "url": "https://github.com/SummerG20/US-Film-Industry/blob/main/data/movie_ratings.csv",
+      "size": "5 MB",
+      "variables": [
+        {
+          "name": "title",
+          "description": "Title of the movie",
+          "type": "string"
+        },
+        {
+          "name": "release_year",
+          "description": "Year the movie was released",
+          "type": "integer"
+        },
+        {
+          "name": "rating",
+          "description": "Movie rating on a scale of 1 to 10",
+          "type": "float"
+        }
+      ],
+    }
+}
